@@ -14,7 +14,7 @@ cd "$NEW_PROJECT_DIR"
 
 # Initialize npm and install dependencies
 npm init -y
-npm install eslint eslint-config-react-app new-component parcel parcel-reporter-static-files-copy prettier process react react-dom react-feather rimraf
+npm install eslint eslint-config-react-app new-component parcel parcel-reporter-static-files-copy prettier process react react-dom react-feather rimraf styled-components
 
 # Copy template files
 cp $TEMPLATE_DIR/.eslintrc.json .
